@@ -1,0 +1,4 @@
+#1
+docker build -t sber_image .
+#2
+docker run -d --name sber_container -p 8080:80 sber_image
